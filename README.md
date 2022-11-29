@@ -1,2 +1,2 @@
-# The-Town-of-Gold-Paracale-s-Tourist-Spots
+# TOG-PARACALE
 This is all about Paracale's Tourist spots found in the Philippines. The mesmerizing places and history it holds.

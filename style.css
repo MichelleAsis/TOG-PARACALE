@@ -63,14 +63,14 @@ section {
   padding: 1rem 3rem;
   font-size: 1.7rem;
   color: #DADADA;
-  border: 0.2rem solid #0E2038;
+  border: 0.2rem solid #FFF;
   border-radius: 5rem;
   cursor: pointer;
   background: none;
 }
 
 .btn:hover {
-  background: #213A5C;
+  background: #ABB6CB;
   color: #DADADA;
 }
 

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 * {
-  font-family: 'Work Sans', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -133,7 +133,7 @@ section {
   width: 99%;
   border-radius: 1rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#0E2038), to(#0E2038)), url(images/mainback.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(images/maculabo\(1\)) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(images/maculabo\(1\).jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: -webkit-box;

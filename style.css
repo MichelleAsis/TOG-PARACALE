@@ -62,7 +62,7 @@ section {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.7rem;
-  color: #213A5C;
+  color: #DADADA;
   border: 0.2rem solid #0E2038;
   border-radius: 5rem;
   cursor: pointer;
@@ -71,7 +71,7 @@ section {
 
 .btn:hover {
   background: #213A5C;
-  color: rgb(255, 255, 255);
+  color: #DADADA;
 }
 
 .header {
@@ -121,7 +121,7 @@ section {
 
 #menu-btn {
   font-size: 2.5rem;
-  color: #ff912b;
+  color: #DADADA;
   cursor: pointer;
   display: none;
 }

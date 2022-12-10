@@ -1,91 +1,172 @@
 <!DOCTYPE html>
-
-<html lang="en" 
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial scale=1">
-    <title>Town of Gold: Paracale</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-     
-    <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Town of Gold</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/fav2.png">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
 </head>
 <body>
-    <!--header-->
-    <header>
-        <a href="#" class="logo">Paracale</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
+    
+<!-- header section starts  -->
 
-        <ul class="navbar">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Package">Package</a></li>
-            <li><a href="#Destination">Destination</a></li>
-            <li><a href="#Contact Us">Contact Us</a></li>
-        </ul>
-    </header>
+<header class="header">
 
-    <!--Home section-->
-    <section class="home" id="home">
-        <div class="home-text">
-            <h1> Town of Gold</h1>
-            <p> Be mesmerize with its enchanted beauty.</p>
-            <a href="#" class="home-btn">Explore now</a>
-        </div>
-    </section>
+    <div id="menu-btn" class="fas fa-bars"></div>
 
-    <!--container-->
-    <section class="container">
-        <div class="text">
-            <h2>Feel the breeze <br> and coziness!</h2>
-        </div>
+    <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel </a>
 
-        <div class="row-items">
-            <div class="container-box">
-                <div class="container-img">
-                    <img src="sun.png">
-                    <img src="cloud.png">
-                    <img src="images/leaf.png">
-                </div>
-                <h4>Summer Time</h4>
-                <P>150</P>
-            </div>
-            <div class="container-box">
-                <div class="container-img">
-                    <img src="sun.png">
-                    <img src="cloud.png">
-                    <img src="images/leaf.png">
-                </div>
-                <h4>Cottages</h4>
-                <P>250 Properties</P>
-            </div>
-            <div class="container-box">
-                <div class="container-img">
-                    <img src="sun.png">
-                    <img src="cloud.png">
-                    <img src="images/leaf.png">
-                </div>
-                <h4>Foods</h4>
-                <P>150 Properties</P>
-            </div>
-            <div class="container-box">
-                <div class="container-img">
-                    <img src="sun.png">
-                    <img src="cloud.png">
-                    <img src="images/leaf.png">
-                </div>
-                <h4>Transport</h4>
-                <P>150 Properties</P>
-            </div>
-        </div>
-    </section>
-    <!--link to js-->
-    <script type="text/javascript" scr="js/script.js"></script>
+    <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">destination</a>
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">gallery</a>
+        <a data-aos="zoom-in-left" data-aos-delay="1150" href="#hotels">Hotels</a>
+    </nav>
 
-</div>
+    <a data-aos="zoom-in-left" data-aos-delay="1300" href="#about" class="btn">Let's Go!</a>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+   
+    <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">Town of Gold</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">The Paracale</h3>
+        <p data-aos="fade-up" data-aos-delay="450">Wherein Mesmerizing Tourist Spots can be found!</p>
+        <a data-aos="fade-up" data-aos-delay="600" href="#about" class="btn">LET'S GO!</a>
+    </div>
+
 </section>
-</body>
-</html>
+
+<!-- home section ends -->
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+        <video src="images/backtwo.mp4" muted autoplay loop class="video"></video>
+        <div class="controls">
+            <span class="control-btn" data-src="images/vid1.mp4"></span>
+            <span class="control-btn" data-src="images/vid2.mp4"></span>
+            <span class="control-btn" data-src="images/OCCVID.mp4"></span>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>Why Paracale?</span>
+        <h3>A Golden Nature Awaits for you!</h3>
+        <p>Paracale is said to be a town of gold with town name derived from para cale meaning canal digger.  Small gold mining operations are likewise currently operating in the said small town.  </p>
+        <a href="#" target="_blank" class="btn">read more</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- destination section starts  -->
+
+<section class="destination" id="destination">
+
+    <div class="heading">
+        <span>Golden Destinations</span>
+        <h1>Travel and Be Mesmerized</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="image">
+                <img src="images/gumaus(4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Gumaos Beach</h3>
+                <p><b>Eat. Sleep. Beach. Repeat.</b> <br>Gumaus Beach is the best choice for a place if you want your mind to be relaxed, not only your mind but also your physical self! You can enjoy either day or night here. Experience the salty water and sand which gives the vibe of being free. 
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="image">
+                <img src="images/Labnig(1).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Labnig Beach</h3>
+                <p><b>Who wouldn't lab(love) labnig?</b> <br> Labnig is one of the barangays which are in the outlying area of Municipality of Paracale. Paracale with a population of about 46,856 and its 27 barangays belong to the partly urban areas in the Philippines.</p>
+               
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="image">
+                <img src="images/turayog(4).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Turayog</h3>
+                <p><b>if you couldn't make it to the beach, this view deck had to do!</b> <br> Majestic 360 view. This private property opened its door for the public to enjoy one of Bicol’s famous picturesque view. Perfect for sunrise and sunset photoshoots. For 35 pesos entrance fee, take hundreds of Instagramable photos to share with your friends. What are you waiting for?
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <div class="image">
+                <img src="images/OLCC(2).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>The Church of Our Lady Candelaria</h3>
+                <p><b>What other site would be better for us to pray than this ancient church?
+                </b><br> Interestingly, the town of Paracale was discovered in 1571 by Captain Juan De Salcedo along with the Augustinian Priest Fray Diego de Espinar who introduced the Christianism in the said place. The church of Our Lady of Candelaria was actually was of the first churches to ever built in Camarines Norte.</p>
+                
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="750">
+            <div class="image">
+                <img src="images/maculabo(1).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Maculabo Island</h3>
+                <p><b>No man is an island, so as you! Relax and and experience the maculabo!
+                </b> <br> Maculabo is an island of the Calaguas group of islands in Camarines Norte province of the Philippines. Although part of the Calaguas group, the island is under the jurisdiction of the municipality of Paracale, Camarines Norte.</p>
+            </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="800">
+            <div class="image">
+                <img src="images/pulangdaga1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pulang Daga Beach</h3>
+                <p><b>Discover the beautiful bond of the sea and the shoreline!
+                </b> <br>There aren't any rats on this beach, so don't panic. The Bicolano term for "lupa," which meaning ground or earth, gave Pulang Daga its name. One of the best getaways to get away from the busy city is Pulang Daga. A panoramic view of the Pacific Ocean is provided by the stretch of white sand beaches, making it the perfect location for picnickers and swimmers. 
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- destination section ends -->

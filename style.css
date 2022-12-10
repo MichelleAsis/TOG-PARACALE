@@ -66,7 +66,7 @@ section {
   border: 0.2rem solid #FFF;
   border-radius: 5rem;
   cursor: pointer;
-  background: none;
+  background:#Dad5cf;
 }
 
 .btn:hover {
